@@ -1,0 +1,30 @@
+body{
+    font-size: 1.5rem;
+}
+
+
+.parent{
+    
+    background: blue;
+    padding: 3rem;
+    margin: 3rem;
+}
+
+.parent > div{
+    min-height: 100px;
+}
+
+.c1{
+    background: red;
+    position: sticky;
+    top: 10px;
+}
+
+.c2{
+    background: green;
+    
+}
+
+.c3{
+    background: purple;
+}
